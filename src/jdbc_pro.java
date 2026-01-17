@@ -115,7 +115,7 @@ public class jdbc_pro {
      }
      public static void deletedata(Connection con, Scanner sc)throws Exception{
         int id;
-        System.out.println("enter the id of the student to dlete the data of ");
+        System.out.println("enter the id of the student to delete the data of ");
         id=sc.nextInt();
         sc.nextLine();
         String sql="delete from studentdata where sid=?";
@@ -182,3 +182,4 @@ while (running) {
     }
 }
                     
+
