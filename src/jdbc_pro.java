@@ -148,21 +148,27 @@ while (running) {
 
     switch (choice) {
         case 1:
+            System.out.println("you have selected to add a student");
             addstudent(con, sc);
             break;
         case 2:
+            System.out.println("you have selected to view all students");
             viewallstudents(con);
             break;
         case 3:
+            System.out.println("you have selected to view a student by ID");
             viewAstudentBySID(con, sc);
             break;
         case 4:
+            System.out.println("you have selected to update student data");
             updatestudentdata(con, sc);
             break;
         case 5:
+            System.out.println("you have selected to delete student data");
             deletedata(con, sc);
-             break;
+            break;
         case 6:
+            System.out.println("Exiting the program.");
             running = false;
             break;
         default:
@@ -175,5 +181,4 @@ while (running) {
         
     }
 }
-
                     
