@@ -161,6 +161,7 @@ while (running) {
             break;
         case 5:
             deletedata(con, sc);
+             break;
         case 6:
             running = false;
             break;
@@ -174,4 +175,5 @@ while (running) {
         
     }
 }
+
                     
