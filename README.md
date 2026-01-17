@@ -19,10 +19,11 @@ This project uses PostgreSQL.
 
 Before running the project, update the following values in the source code:
 
+```java
 String url = "jdbc:postgresql://localhost:5432/your_database_name";
 String username = "postgres";
 String password = "your_password"; 
-
+```
 ## Create the table using the following SQL:
 CREATE TABLE studentdata (
     sid INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
